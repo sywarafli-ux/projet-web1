@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulaire d'Inscription</title>
+</head>
+<body>
+
+    <header>
+        <h1>Formulaire d'Inscription</h1>
+    </header>
+
+    <form action="#" method="post">
+
+        <label for="name">Nom :</label><br>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+        <label>Sexe :</label><br>
+        <input type="radio" id="masculin" name="gender" value="masculin">
+        <label for="masculin">Masculin</label><br>
+        <input type="radio" id="feminin" name="gender" value="feminin">
+        <label for="feminin">Féminin</label>
+
+        <br><br>
+        <label>Compétences :</label><br>
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="skills" value="javascript">
+        <label for="js">JavaScript</label>
+
+        <br><br>
+        <label for="level">Niveau d'expérience :</label><br>
+        <select id="level" name="level">
+            <option value="">Sélectionnez...</option>
+            <option value="debutant">Débutant</option>
+            <option value="intermediaire">Intermédiaire</option>
+            <option value="avance">Avancé</option>
+        </select>
+
+        <br>
+        <label for="comments">Commentaires :</label><br>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <br>
+        <input type="submit" value="Envoyer">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body.portfolio header,
+body.portfolio thead th {
+    background-color: #35424a;
+    color: rgb(243, 246, 248);
+}
+
+.galerie img {
+    float: left;
+    margin-right: 150px;
+}
+
+table {
+    clear: both;
+    width: 100%;
+}
+
+tbody tr:hover {
+    background-color: #bbe0e9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}

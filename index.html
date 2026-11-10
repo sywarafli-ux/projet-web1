@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang='fr'>
+<html lang="fr">
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>mon projet web</title>
-    <link rel='stylesheet' href='main.css'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Robotique – Accueil</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>mon projet web</h1>
+  <header>
+    <h1>CLUB ROBOTIQUE</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#mission">Mission</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div>
+        <h2>DÉCOUVREZ LE CLUB ROBOTIQUE</h2>
+        <p>Explorez l'innovation, construisez l'avenir. Rejoignez notre communauté de passionnés !</p>
+      </div>
+      <img src="images/robot.jpg" alt="Élèves du club robotique">
+    </section>
+
+    <section id="mission">
+      <h2>NOTRE MISSION</h2>
+      <p>Le Club Robotique est une association étudiante qui conçoit, programme et fait évoluer des robots tout au long de l'année. Nous accueillons tous les niveaux, du curieux au confirmé.</p>
+    </section>
+
+    <section id="projets">
+      <div class="grid-projets">
+        <figure><img src="images/drone.jpg" alt="Drone"><figcaption>DRONE</figcaption></figure>
+        <figure><img src="images/suiveur.jpg" alt="Robot suiveur"><figcaption>ROBOT SUIVEUR</figcaption></figure>
+        <figure><img src="images/bras.jpg" alt="Bras robotique"><figcaption>BRAS ROBOTIQUE</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>OÙ NOUS TROUVER</h2>
+      <p>Le club est installé à l'ISET de Kélibia, Route Oued El Khatf, Kélibia 8090.</p>
+      <a class="btn" href="https://www.google.com/maps/search/ISET+Kelibia" target="_blank">Voir l'itinéraire</a>
+    </section>
+
+    <section class="event">
+      <h2>REJOIGNEZ-NOUS AUX PORTES OUVERTES !</h2>
+      <p>📅 Samedi 26 octobre</p>
+      <p>🕘 9h – 17h</p>
+      <p>📍 Bâtiment Espace Tech</p>
+      <a class="btn" href="#contact">S'inscrire à l'événement</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#accueil">ACCUEIL</a>
+    <p>club.robotique@example.com</p>
+    <p>Mentions légales</p>
+  </footer>
 </body>
 </html>
